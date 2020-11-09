@@ -27,7 +27,7 @@ public class ListFragment extends BaseFragment<ListActivity, ListContract.Presen
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
-        fragmentView = inflater.inflate(R.layout.activity_home, container, false);
+        fragmentView = inflater.inflate(R.layout.fragment_list_task, container, false);
 
         RecyclerView rvTask = fragmentView.findViewById(R.id.rv_task);
         FloatingActionButton btnTaskAdd = fragmentView.findViewById(R.id.btn_task_add);

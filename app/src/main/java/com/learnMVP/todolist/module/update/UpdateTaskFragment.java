@@ -26,7 +26,7 @@ public class UpdateTaskFragment extends BaseFragment<UpdateTaskActivity, UpdateT
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
-        fragmentView = inflater.inflate(R.layout.activity_edit_task, container, false);
+        fragmentView = inflater.inflate(R.layout.fragment_update_task, container, false);
 
         final TextView taskTitle = fragmentView.findViewById(R.id.tv_task_title);
         final Button btnEditTask = fragmentView.findViewById(R.id.btn_edit_task);

@@ -25,7 +25,7 @@ public class AddTaskFragment extends BaseFragment<AddTaskActivity, AddTaskContra
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
-        fragmentView = inflater.inflate(R.layout.activity_task, container, false);
+        fragmentView = inflater.inflate(R.layout.fragment_add_task, container, false);
         presenter.start();
 
         final TextView taskTitle = fragmentView.findViewById(R.id.tv_task_title);
